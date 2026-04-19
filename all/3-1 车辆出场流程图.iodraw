@@ -1,0 +1,55 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.6 Chrome/144.0.7559.236 Electron/40.8.4 Safari/537.36" version="29.6.6">
+  <diagram name="图3-1 出场流程" id="0">
+    <mxGraphModel dx="966" dy="640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="s" parent="1" style="ellipse;html=1;" value="开始" vertex="1">
+          <mxGeometry height="40" width="80" x="190" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="a" parent="1" style="rounded=1;html=1;" value="车辆出场" vertex="1">
+          <mxGeometry height="50" width="120" x="290" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="b" parent="1" style="rounded=1;html=1;" value="识别车牌" vertex="1">
+          <mxGeometry height="50" width="120" x="430" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="c" parent="1" style="rounded=1;html=1;" value="查询记录" vertex="1">
+          <mxGeometry height="50" width="120" x="430" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="d" parent="1" style="rounded=1;html=1;" value="计算费用" vertex="1">
+          <mxGeometry height="50" width="120" x="290" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="e" parent="1" style="rounded=1;html=1;" value="支付" vertex="1">
+          <mxGeometry height="50" width="120" x="160" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="f" parent="1" style="rounded=1;html=1;" value="开闸" vertex="1">
+          <mxGeometry height="50" width="120" x="160" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="end" parent="1" style="ellipse;html=1;" value="结束" vertex="1">
+          <mxGeometry height="40" width="80" x="300" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="kWsNja9oEgbJCpgR5KcT-1" edge="1" parent="1" source="s" target="a">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kWsNja9oEgbJCpgR5KcT-2" edge="1" parent="1" source="a" target="b">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kWsNja9oEgbJCpgR5KcT-3" edge="1" parent="1" source="b" target="c">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kWsNja9oEgbJCpgR5KcT-4" edge="1" parent="1" source="c" target="d">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kWsNja9oEgbJCpgR5KcT-5" edge="1" parent="1" source="d" target="e">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kWsNja9oEgbJCpgR5KcT-6" edge="1" parent="1" source="e" target="f">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kWsNja9oEgbJCpgR5KcT-7" edge="1" parent="1" source="f" target="end">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
